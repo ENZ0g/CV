@@ -1,1 +1,1 @@
-Оно [тут](https://enz0g.github.io/CV/).
+РћРЅРѕ [С‚СѓС‚](https://enz0g.github.io/CV/).
