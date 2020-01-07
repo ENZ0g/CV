@@ -101,7 +101,7 @@ body {
 
 .year {
     background-color: rgba(57, 57, 57, 1);
-    margin-right: .5em;
+    margin-right: .55em;
     display: inline-block;
     font-family: 'Exo 2', sans-serif;
     color: rgba(255, 255, 255, .8);
