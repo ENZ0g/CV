@@ -1,0 +1,175 @@
+.print-hide {
+    display: none;
+}
+
+p, h1, h2, h3, a {
+    color: rgba(57, 57, 57, 1);
+    margin: 0;
+    font-family: 'Exo 2', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: .5em;
+}
+
+h2::before {
+    content: "// "
+}
+
+h3 {
+    font-size: 1.1em;
+}
+
+.container {
+    margin-top: 110px;
+}
+
+.box {
+    padding: .5em 1em;
+    margin-bottom: 1px;
+}
+
+img {
+    filter: grayscale(100%);
+}
+
+/*-- Header --*/
+
+#avatar {
+    width: 100px;
+    height: 100px;
+    border: solid 2px #0d0f0d;
+    border-radius: 50%;
+    margin-top: -7.5em;
+}
+
+.header {
+    padding: 0 1em 1em 1em;
+}
+
+.about {
+    display: none;
+}
+
+/*-- Education Experience --*/
+
+.description {
+    border-radius: 3px;
+    margin-bottom: 5px;
+    padding: .5em;
+    width: 85%;
+    display: inline-block;
+    position: relative;
+}
+
+.timeline {
+    position: relative;
+    list-style: none;
+    padding-left: 1em;
+    margin-top: 1em;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    left: 2em;
+    width: 5px;
+    height: 100%;
+    background: rgba(57, 57, 57, 1);
+    display: block;
+}
+
+.timeline li {
+    width: 100%;
+    float: left;
+    position: relative;
+    z-index: 1;
+}
+
+.timeline li:first-child {
+    padding-top: 1em;
+}
+
+.year {
+    margin-right: .55em;
+    background-color: #fff;
+    display: inline-block;
+    font-family: 'Exo 2', sans-serif;
+    color: rgba(57, 57, 57, 1);
+    padding: .2em 0;
+    font-size: 1.1em;
+    font-weight: 500;
+    width: 10%;
+}
+
+/*-- Contacts --*/
+
+.contact {
+    margin-bottom: .5em;
+}
+
+.icon {
+    display: inline-block;
+    margin-right: 1em;
+}
+
+.icon > img {
+    width: 25px;
+}
+
+/*-- Skills --*/
+
+.item-skills {
+    height: 2em;
+    width: 70%;
+    background: rgba(150, 150, 150, 1);
+    color: #fff;
+    margin-bottom: .3em;
+    padding: .3em 0 .3em .5em;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 500;
+    border-radius: 3px;
+}
+
+/*-- Languadges --*/
+
+.skill {
+    font-family: 'Exo 2', sans-serif;
+    color: rgba(57, 57, 57, 1);
+    margin-bottom: .5em;
+}
+
+.stars {
+    height: 1.5em;
+    width: 10.5em;
+    float: right;
+}
+
+.stars-gold {
+    height: 1.5em;
+    background: url('img/stars-gray.png') no-repeat;
+    background-size: cover;
+}
+
+/*-- Hobby --*/
+
+.hobby {
+    display: inline-block;
+    padding: .5em;
+    margin: 0 .5em .5em 0;
+    border-radius: 2px;
+    font-size: .8em;
+    font-family: 'Exo 2', sans-serif;
+    color: rgba(57, 57, 57, 1);
+}
+
+/*-- Buttons --*/
+
+.btn-outline-secondary {
+    display: none;
+}
