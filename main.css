@@ -196,6 +196,7 @@ h3 {
 .btn-faq {
     color: rgba(255, 240, 0, 1);
     font-family: 'Exo 2', sans-serif;
+    text-align: left;
 }
 
 .btn-faq:focus {
