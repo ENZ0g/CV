@@ -56,6 +56,12 @@ h3 {
     padding: 0 1em 1em 1em;
 }
 
+/*-- About --*/
+
+.about {
+    margin-bottom: .4em;
+}
+
 /*-- Education Experience --*/
 
 .description {
@@ -144,7 +150,7 @@ h3 {
     width: 70%;
     background: linear-gradient(90deg, rgba(255, 240, 0, .9) 50%, rgba(57, 57, 57, 1) 100%);
     margin-bottom: .3em;
-    padding: .3em 0 .3em .5em;
+    padding: .18em 0 0 .5em;
     font-family: 'Exo 2', sans-serif;
     font-weight: 500;
     border-radius: 3px;
@@ -185,7 +191,53 @@ h3 {
     color: rgba(255, 255, 255, .8); 
 }
 
-/*-- Buttons --*/
+/*-- FAQ --*/
+
+.btn-faq {
+    color: rgba(255, 240, 0, 1);
+    font-family: 'Exo 2', sans-serif;
+}
+
+.btn-faq:focus {
+    box-shadow: none;
+}
+
+.btn-faq:hover {
+    color: rgba(255, 240, 0, 1);
+}
+
+.card-header {
+    background-color: rgba(80, 80, 80, 1);
+    padding: 0;
+}
+
+.card {
+    border: none;
+}
+
+.card:last-of-type {
+    margin-bottom: 1em;
+}
+
+.card p {
+    margin-bottom: .5em;
+}
+
+.card-body {
+    background-color: rgba(80, 80, 80, 1);
+    text-align: justify;
+}
+
+.collapsed {
+    color: rgba(255, 255, 255, .8);
+    background-color: rgba(80, 80, 80, 1);
+}
+
+.collapsed:hover {
+    color: rgba(255, 240, 0, 1);
+}
+
+/*-- Buttons DOWNLOAD, PRINT--*/
 
 .btn-outline-secondary {
     border-color: #393939;

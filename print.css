@@ -168,6 +168,12 @@ img {
     color: rgba(57, 57, 57, 1);
 }
 
+/*-- FAQ --*/
+
+.accordion {
+    display: none;
+}
+
 /*-- Buttons --*/
 
 .btn-outline-secondary {

@@ -3,12 +3,25 @@
 
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <title>Резюме</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css?family=Exo+2:400,500&display=swap&subset=cyrillic" rel="stylesheet">
         <link href="main.css" rel="stylesheet" media="screen">
         <link href="print.css" rel="stylesheet" media="print">
+        
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+                integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+                crossorigin="anonymous"></script>
+<!--
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+                integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+                crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" 
+                integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+                crossorigin="anonymous"></script>
+-->
+        
     </head>
 
     <body>
@@ -206,6 +219,130 @@
                         <div class="hobby">Сноуборд</div>
                     </div>
                     
+                    <div class="box accordion" id="FAQ">
+                        <h2>FAQ</h2>
+                        <div class="card">
+                            <div class="card-header" id="heading-1">
+                                
+                                    <button class="btn btn-faq collapsed" type="button" data-toggle="collapse" data-target="#collapse-1" aria-expanded="true" aria-controls="collapse-1">
+                                        Семейное положение? Дети?
+                                    </button>
+                                
+                            </div>
+
+                            <div id="collapse-1" class="collapse" aria-labelledby="heading-1" data-parent="#FAQ">
+                                <div class="card-body">
+                                    <p>Расстался. Новые отношения с девушкой планирую после новых отношений с работой. Но это не точно, сердцу не прикажешь.</p>
+                                    <p>Детей нет.</p>
+                                </div>
+                            </div>
+                        </div>
+                            
+                        <div class="card">
+                            <div class="card-header" id="heading-2">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-faq collapsed" type="button" data-toggle="collapse" data-target="#collapse-2" aria-expanded="true" aria-controls="collapse-2">
+                                        Какие библиотеки Python используешь?
+                                    </button>
+                                </h5>
+                            </div>
+
+                            <div id="collapse-2" class="collapse" aria-labelledby="heading-2" data-parent="#FAQ">
+                                <div class="card-body">
+                                    <p>os, timedate, collections, requests, bottle, soket, sqlalchemy, beautifulsoup. Был опыт pandas, numpy, работы в jupiternotebook.</p>
+                                </div>
+                            </div>
+                        </div>
+                            
+                        <div class="card">
+                            <div class="card-header" id="heading-3">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-faq collapsed" type="button" data-toggle="collapse" data-target="#collapse-3" aria-expanded="true" aria-controls="collapse-3">
+                                        В каком городе ищешь работу?
+                                    </button>
+                                </h5>
+                            </div>
+
+                            <div id="collapse-3" class="collapse" aria-labelledby="heading-3" data-parent="#FAQ">
+                                <div class="card-body">
+                                    <p>Москва, Санкт-Петербург, Казань.</p>
+                                </div>
+                            </div>
+                        </div>
+                            
+                        <div class="card">
+                            <div class="card-header" id="heading-4">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-faq collapsed" type="button" data-toggle="collapse" data-target="#collapse-4" aria-expanded="true" aria-controls="collapse-4">
+                                        Автобизнес? Что именно?
+                                    </button>
+                                </h5>
+                            </div>
+
+                            <div id="collapse-4" class="collapse" aria-labelledby="heading-4" data-parent="#FAQ">
+                                <div class="card-body">
+                                    <p>Работа в дилерских центрах Nissan -> Audi -> Skoda. Перевод Nissan -> Audi был в рамках одной компании, в Москве. В СПб работал в Skoda.</p>
+                                    <p>Начинал в отделе продаж новых автомобилей, менеджером по продаже. После окончания института продолжил мастером-консультантом по сервисному обслуживанию автомобилей.</p>
+                                </div>
+                            </div>
+                        </div>
+                            
+                        <div class="card">
+                            <div class="card-header" id="heading-5">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-faq collapsed" type="button" data-toggle="collapse" data-target="#collapse-5" aria-expanded="true" aria-controls="collapse-5">
+                                        Что по зп?
+                                    </button>
+                                </h5>
+                            </div>
+
+                            <div id="collapse-5" class="collapse" aria-labelledby="heading-5" data-parent="#FAQ">
+                                <div class="card-body">
+                                    <p>Обсуждаем на собеседовании. Ожидания: от 60к, выход на 100к в течении 6 мес.</p>
+                                </div>
+                            </div>
+                        </div>
+                            
+                        <div class="card">
+                            <div class="card-header" id="heading-6">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-faq collapsed" type="button" data-toggle="collapse" data-target="#collapse-6" aria-expanded="true" aria-controls="collapse-6">
+                                        Почему IT?
+                                    </button>
+                                </h5>
+                            </div>
+
+                            <div id="collapse-6" class="collapse" aria-labelledby="heading-6" data-parent="#FAQ">
+                                <div class="card-body">
+                                    <p>Нет, не потому что зарплаты космос. Это, скорее, приятный бонус.</p>
+                                    <br>
+                                    <p>Сейчас будет минутка откровений.</p>
+                                    <p>Наступил момент, когда я понял, что не готов остаток жизни проработать в автосалоне, пусть даже и были карьерные перспективы. И так как вопрос серьёзный, я создал себе комфортные условия для его решения - у меня было денег на полгода ничего-не-делания.</p>
+                                    <p>Я отдыхал, занимался спортом, общался с людьми и параллельно прокручивал варианты, чем заниматься. В один прекрасный день я посмотрел вакансии Яндекса, но увидел их академию. "Машинное обучение?" - подумал я. Какое забавное словосочетание. И вот я уже решаю задачки, пытаюсь предсказать, выживет ли тот или иной пассажир Титаника. Не знаю Python, первый раз вижу регулярные выражения. Но получается! Так я провел неделю с перерывом на спорт и прогулки, но даже тогда в голове были мысли только о том, как решить очередную задачу. Неделю! Вот это меня зацепило! На courser'е нахожу бесплатные курсы по Python'у. За пару недель прохожу месячный курс. Параллельно погружаюсь в web и понимаю, что это мне интересней. Далее уже пошли платные курсы...</p>
+                                    <p>Уже год я в этой теме и меня дико прёт!</p>
+                                </div>
+                            </div>
+                        </div>
+                            
+                        <div class="card">
+                            <div class="card-header" id="heading-7">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-faq collapsed" type="button" data-toggle="collapse" data-target="#collapse-7" aria-expanded="true" aria-controls="collapse-7">
+                                        Фриланс?
+                                    </button>
+                                </h5>
+                            </div>
+
+                            <div id="collapse-7" class="collapse" aria-labelledby="heading-7" data-parent="#FAQ">
+                                <div class="card-body">
+                                    <p>Я определенно командный игрок, группа единомышленников меня заряжает и мотивирует.</p>
+	                                <p>Но и самоорганизоваться я тоже могу. Не найду команду, буду фрилансить.</p>
+                                </div>
+                            </div>
+                        </div>    
+                        
+                    </div>
+                    
                     <div class="print-download text-right">
                         <a href='Leontev_Alexandr.pdf' download class="btn btn-outline-secondary">Скачать PDF</a>
                         <a href="#" onclick="window.print();return false;" class="btn btn-outline-secondary">Распечатать</a>
@@ -214,8 +351,9 @@
                 </div>
             </div>
         </div>
-        <script>
-            fetch('https://damp-brook-86208.herokuapp.com/activity')
-        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" 
+                integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+                crossorigin="anonymous"></script>
+<!--        <script>fetch('https://damp-brook-86208.herokuapp.com/activity')</script>-->
     </body>
 </html>
