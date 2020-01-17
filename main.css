@@ -259,7 +259,8 @@ h3 {
     .sm-custom-order .languages {order: 2;}
     .sm-custom-order .hobbies {order: 3;}
     .sm-custom-order .contacts {order: 4;}
-    .sm-custom-order .print-download {order: 5;}
+    .sm-custom-order .accordion {order: 5;}
+    .sm-custom-order .print-download {order: 6;}
     
 }
 
