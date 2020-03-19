@@ -128,6 +128,10 @@ h3 {
     width: 10%;
 }
 
+ins {
+    text-decoration: none;
+}
+
 /*-- Contacts --*/
 
 .contact {
@@ -250,6 +254,45 @@ h3 {
     background-color: #393939;
 }
 
+/*-- Modal --*/
+
+.modal-gray {
+    background-color: rgb(50, 50, 50);
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+.modal-header .close {
+    opacity: 1;
+    padding-top: .9em;
+}
+
+.modal-header h5 {
+    color: rgba(255, 240, 0, .7);
+    font-size: 1.5em;
+}
+
+.modal-header span {
+    /*color: rgba(255, 240, 0, .7);*/
+    color: rgba(255, 255, 255, .8);
+    text-shadow: none;
+}
+
+.modal-body > p:nth-child(-n+9) {
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.modal-footer {
+    border-top: none;
+    padding-top: 0;
+}
+
+.modal-footer .btn {
+    margin: 0;
+}
 
 @media (max-width: 767.98px) {
     .sm-custom-order {
