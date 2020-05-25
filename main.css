@@ -160,6 +160,20 @@ ins {
     border-radius: 3px;
 }
 
+.skills-mini{
+    margin-top: 10px;
+    color: rgba(255, 255, 255, .8);
+    font-family: 'Exo 2', sans-serif;
+}
+
+.skills-mini > div {
+    border: 1px solid rgb(115, 115, 115, .4);
+    border-radius: 3px;
+    margin-right: 3px;
+    margin-bottom: 3px;
+    padding: 0 5px 3px 5px;
+}
+
 /*-- Languadges --*/
 
 .skill {
@@ -241,6 +255,26 @@ ins {
 .collapsed:hover {
     color: rgba(255, 240, 0, 1);
 }
+
+/*-- CODE IN GAME --*/
+
+.cig_link {
+    background-image: url('img/cig_logo.png');
+    height: 18px;
+    width: 138px;
+}
+
+.codeingame img {
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+}
+
+.codeingame span {
+    color: rgba(255, 240, 0, .9);
+    font-size: 1.3em;
+    font-family: 'Exo 2', sans-serif;
+} 
 
 /*-- Buttons DOWNLOAD, PRINT--*/
 

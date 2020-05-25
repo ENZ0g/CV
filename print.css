@@ -26,7 +26,7 @@ h3 {
 }
 
 .container {
-    margin-top: 110px;
+    margin-top: 95px;
 }
 
 .box {
@@ -41,19 +41,11 @@ img {
 /*-- Header --*/
 
 #avatar {
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
     border: solid 2px #0d0f0d;
     border-radius: 50%;
-    margin-top: -7.5em;
-}
-
-.header {
-    padding: 0 1em 1em 1em;
-}
-
-.about {
-    display: none;
+    margin-top: -8.5em;
 }
 
 /*-- Education Experience --*/
@@ -134,6 +126,14 @@ img {
     font-family: 'Exo 2', sans-serif;
     font-weight: 500;
     border-radius: 3px;
+}
+
+.skills-mini > div {
+    border: 1px solid rgb(115, 115, 115, .4);
+    border-radius: 3px;
+    margin-right: 3px;
+    margin-bottom: 3px;
+    padding: 0 5px 3px 5px;
 }
 
 /*-- Languages --*/
