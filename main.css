@@ -272,7 +272,7 @@ ins {
 
 .codeingame span {
     color: rgba(255, 240, 0, .9);
-    font-size: 1.3em;
+    font-size: 1.2em;
     font-family: 'Exo 2', sans-serif;
 } 
 
@@ -359,5 +359,4 @@ ins {
     .timeline::before {
         left: 1.1em;
     }
-    
 }
