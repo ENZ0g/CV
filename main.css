@@ -2,7 +2,7 @@ body {
     background-color: #0d0f0d;
 }
 
-p, h1, h2, h3, a {
+p, h1, h2, h3, a, table {
     color: rgba(255, 255, 255, .8);
     margin: 0;
     font-family: 'Exo 2', sans-serif;
@@ -274,7 +274,15 @@ ins {
     color: rgba(255, 240, 0, .9);
     font-size: 1.2em;
     font-family: 'Exo 2', sans-serif;
-} 
+}
+
+table {
+    width: 100%;
+}
+
+table td:nth-child(3) {
+    text-align: right;
+}
 
 /*-- Buttons DOWNLOAD, PRINT--*/
 
@@ -336,12 +344,17 @@ ins {
     .sm-custom-order .skills {order: 1;}
     .sm-custom-order .languages {order: 2;}
     .sm-custom-order .hobbies {order: 3;}
-    .sm-custom-order .codeingame {order: 4;}
+    .sm-custom-order .codeingame-wrapper {order: 4;}
     .sm-custom-order .contacts {order: 5;}
     .sm-custom-order .accordion {order: 6;}
     .sm-custom-order .print-download {order: 7;}
     
+    table {
+    font-size: .8em;
+    }
 }
+
+
 
 @media (max-width: 500px) {
     .year {
