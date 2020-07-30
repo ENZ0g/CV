@@ -73,6 +73,7 @@ h3 {
     width: 85%;
     display: inline-block;
     position: relative;
+    text-align: justify;
 }
 
 .description::before {
