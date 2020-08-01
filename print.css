@@ -14,7 +14,7 @@ a, ins {
 
 h2 {
     font-size: 1.5em;
-    margin-bottom: .5em;
+    margin-bottom: 0em;
 }
 
 h2::before {
@@ -27,6 +27,10 @@ h3 {
 
 .container {
     margin-top: 95px;
+}
+
+.header {
+    margin-bottom: 0;
 }
 
 .box {
@@ -63,7 +67,7 @@ img {
     position: relative;
     list-style: none;
     padding-left: 1em;
-    margin-top: 1em;
+    margin-top: .5em;
 }
 
 .timeline::before {
