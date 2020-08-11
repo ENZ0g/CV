@@ -29,9 +29,14 @@ h3 {
     margin-top: 95px;
 }
 
+.header {
+    margin-bottom: 1px;
+}
+
 .box {
     padding: .5em 1em;
     margin-bottom: 1px;
+    margin-top: 1px;
 }
 
 img {
